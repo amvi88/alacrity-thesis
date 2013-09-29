@@ -1,0 +1,266 @@
+# depslib dependency file v1.0
+1299528358 source:/home/maia/oF/of_preRelease_v0062_linux_FAT/apps/myApps/NiSimpleViewer/src/NiSimpleViewer.cpp
+	<XnOS.h>
+	<GL/glut.h>
+	<math.h>
+	<XnCppWrapper.h>
+
+1376764676 /usr/include/ni/XnOS.h
+	"XnPlatform.h"
+	"XnMacros.h"
+	"XnStatusCodes.h"
+	"XnOSStrings.h"
+	"XnOSMemory.h"
+	"Win32/XnOSWin32.h"
+	"Linux-x86/XnOSLinux-x86.h"
+	"ARC/XnOSARC.h"
+	<new>
+
+1376764676 /usr/include/ni/XnPlatform.h
+	"Win32/XnPlatformWin32.h"
+	"Android-Arm/XnPlatformAndroid-Arm.h"
+	"Linux-x86/XnPlatformLinux-x86.h"
+	"Linux-Arm/XnPlatformLinux-Arm.h"
+	"ARC/XnPlatformARC.h"
+	"MacOSX/XnPlatformMacOSX.h"
+
+1376764676 /usr/include/ni/Linux-x86/XnPlatformLinux-x86.h
+	<unistd.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<limits.h>
+
+1376764676 /usr/include/ni/Linux-Arm/XnPlatformLinux-Arm.h
+	"../Linux-x86/XnPlatformLinux-x86.h"
+
+1376764676 /usr/include/ni/XnMacros.h
+	"XnStatusCodes.h"
+
+1376764676 /usr/include/ni/XnStatusCodes.h
+	"XnStatus.h"
+
+1376764676 /usr/include/ni/XnStatus.h
+	"XnPlatform.h"
+
+1376764676 /usr/include/ni/Linux-x86/XnOSLinux-x86.h
+	<sys/types.h>
+	<stdarg.h>
+	<time.h>
+	<pthread.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1376764676 /usr/include/ni/XnCppWrapper.h
+	<XnOpenNI.h>
+	<XnCodecIDs.h>
+
+1376764676 /usr/include/ni/XnOpenNI.h
+	"XnTypes.h"
+	"XnContext.h"
+	"XnLicensing.h"
+	"XnUtils.h"
+	"XnPrdNodeInfo.h"
+	"XnQueries.h"
+	"XnPrdNode.h"
+	"XnEnumerationErrors.h"
+	"XnVersion.h"
+	"XnStatusCodes.h"
+	"XnStatus.h"
+
+1376764676 /usr/include/ni/XnTypes.h
+	<XnStatus.h>
+	<XnOS.h>
+
+1376764676 /usr/include/ni/XnContext.h
+	<XnTypes.h>
+	<XnQueries.h>
+	<XnPrdNodeInfoList.h>
+
+1376764676 /usr/include/ni/XnQueries.h
+	"XnTypes.h"
+
+1376764676 /usr/include/ni/XnPrdNodeInfoList.h
+	<XnTypes.h>
+
+1376764676 /usr/include/ni/XnLicensing.h
+	<XnTypes.h>
+
+1376764676 /usr/include/ni/XnUtils.h
+	<XnTypes.h>
+	<XnModuleInterface.h>
+
+1376764676 /usr/include/ni/XnPrdNodeInfo.h
+	<XnTypes.h>
+
+1376764676 /usr/include/ni/XnPrdNode.h
+	<XnTypes.h>
+
+1376764676 /usr/include/ni/XnEnumerationErrors.h
+	<XnTypes.h>
+
+1376764676 /usr/include/ni/XnVersion.h
+	"XnPlatform.h"
+
+1376764676 /usr/include/ni/XnCodecIDs.h
+	"XnTypes.h"
+
+1377573643 source:/home/alberto/kinect/SkeletonTracker/src/NiSimpleViewer.cpp
+	<iostream>
+	<boost/bind.hpp>
+	<boost/signals2/signal.hpp>
+	<boost/thread.hpp>
+	<boost/thread/mutex.hpp>
+	<boost/date_time.hpp>
+	<GL/glut.h>
+	<math.h>
+	"SkeletonTracker.hxx"
+
+1376764676 /usr/include/ni/MacOSX/XnPlatformMacOSX.h
+	"../Linux-x86/XnPlatformLinux-x86.h"
+	<sys/time.h>
+
+1376764676 /usr/include/ni/XnOSStrings.h
+	"XnPlatform.h"
+	<stdarg.h>
+
+1376764676 /usr/include/ni/XnOSMemory.h
+	"XnPlatform.h"
+
+1376764676 /usr/include/ni/XnModuleInterface.h
+	<XnTypes.h>
+
+1378871553 source:/home/alberto/kinect/SkeletonTracker/src/main.cpp
+	<iostream>
+	<boost/bind.hpp>
+	<boost/signals2/signal.hpp>
+	<boost/thread.hpp>
+	<boost/thread/mutex.hpp>
+	<boost/date_time.hpp>
+	<XnCppWrapper.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"OpenGlManager.hxx"
+	"SkeletonTracker.hxx"
+	"GestureRecognizer.hxx"
+
+1378569814 /home/alberto/kinect/SkeletonTracker/src/SkeletonTracker.hxx
+	<XnCppWrapper.h>
+	<list>
+
+1378690757 source:/home/alberto/kinect/SkeletonTracker/src/GestureRecognizer.cpp
+	<iostream>
+	"GestureRecognizer.hxx"
+
+1378687670 /home/alberto/kinect/SkeletonTracker/src/GestureRecognizer.hxx
+	<queue>
+	<map>
+	<XnCppWrapper.h>
+	<boost/bind.hpp>
+	<boost/signals2/signal.hpp>
+	<boost/thread.hpp>
+	<boost/thread/mutex.hpp>
+	<boost/date_time.hpp>
+
+1378569859 source:/home/alberto/kinect/SkeletonTracker/src/SkeletonTracker.cpp
+	<iostream>
+	<boost/bind.hpp>
+	<boost/signals2/signal.hpp>
+	<boost/thread.hpp>
+	<boost/thread/mutex.hpp>
+	<GL/glut.h>
+	<math.h>
+	<boost/date_time.hpp>
+	"SkeletonTracker.hxx"
+
+1378691046 /home/alberto/kinect/SkeletonTracker/src/OpenGlManager.hxx
+	<vector>
+	<iostream>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"Vec3D.hxx"
+
+1378871879 source:/home/alberto/kinect/SkeletonTracker/src/OpenGLManager.cpp
+	"OpenGlManager.hxx"
+
+1378871497 /home/alberto/kinect/SkeletonTracker/src/Vec3D.hxx
+
+1378871522 source:/home/alberto/kinect/SkeletonTracker/src/Vec3D.cpp
+	"Vec3D.hxx"
+
+1379739308 source:/home/alberto/kinect/alacrity/src/GestureRecognizer.cpp
+	<iostream>
+	"GestureEnumeration.hxx"
+	"GestureRecognizer.hxx"
+
+1379738654 /home/alberto/kinect/alacrity/src/GestureRecognizer.hxx
+	<queue>
+	<map>
+	<list>
+	<XnCppWrapper.h>
+	<boost/bind.hpp>
+	<boost/signals2/signal.hpp>
+	<boost/thread.hpp>
+	<boost/thread/mutex.hpp>
+	<boost/date_time.hpp>
+	"GestureEnumeration.hxx"
+
+1379731487 /home/alberto/kinect/alacrity/src/GestureEnumeration.hxx
+
+1379739510 source:/home/alberto/kinect/alacrity/src/main.cpp
+	<iostream>
+	<boost/bind.hpp>
+	<boost/signals2/signal.hpp>
+	<boost/thread.hpp>
+	<boost/thread/mutex.hpp>
+	<boost/date_time.hpp>
+	<XnCppWrapper.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"OpenGlManager.hxx"
+	"SkeletonTracker.hxx"
+	"GestureRecognizer.hxx"
+	"GestureEnumeration.hxx"
+	"AngleQuantificationGestureRecognizer.hxx"
+
+1378691046 /home/alberto/kinect/alacrity/src/OpenGlManager.hxx
+	<vector>
+	<iostream>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"Vec3D.hxx"
+
+1378871497 /home/alberto/kinect/alacrity/src/Vec3D.hxx
+
+1378569814 /home/alberto/kinect/alacrity/src/SkeletonTracker.hxx
+	<XnCppWrapper.h>
+	<list>
+
+1379732030 source:/home/alberto/kinect/alacrity/src/OpenGLManager.cpp
+	"OpenGlManager.hxx"
+
+1378569859 source:/home/alberto/kinect/alacrity/src/SkeletonTracker.cpp
+	<iostream>
+	<boost/bind.hpp>
+	<boost/signals2/signal.hpp>
+	<boost/thread.hpp>
+	<boost/thread/mutex.hpp>
+	<GL/glut.h>
+	<math.h>
+	<boost/date_time.hpp>
+	"SkeletonTracker.hxx"
+
+1378871522 source:/home/alberto/kinect/alacrity/src/Vec3D.cpp
+	"Vec3D.hxx"
+
+1379739495 source:/home/alberto/kinect/alacrity/src/AngleQuantificationGestureRecognizer.cpp
+	"AngleQuantificationGestureRecognizer.hxx"
+
+1379737886 /home/alberto/kinect/alacrity/src/AngleQuantificationGestureRecognizer.hxx
+	"GestureRecognizer.hxx"
+

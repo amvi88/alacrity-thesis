@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Alacrity" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="src/;Data/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/NiSimpleViewer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/NiSimpleViewer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="/usr/include/nite" />
+			<Add directory="/usr/include/ni" />
+		</Compiler>
+		<Linker>
+			<Add library="glut" />
+			<Add library="OpenNI" />
+			<Add library="libXnVNite_1_5_2" />
+			<Add library="libGL" />
+			<Add library="libboost_system" />
+			<Add library="libboost_thread-mt" />
+			<Add library="libGLU" />
+			<Add library="libglut" />
+		</Linker>
+		<Unit filename="bin/Data/Config.xml">
+			<Option virtualFolder="Data/" />
+		</Unit>
+		<Unit filename="src/GestureEnumeration.hxx" />
+		<Unit filename="src/GestureRecognizer.cpp" />
+		<Unit filename="src/GestureRecognizer.hxx" />
+		<Unit filename="src/OpenGLManager.cpp" />
+		<Unit filename="src/OpenGlManager.hxx" />
+		<Unit filename="src/SkeletonTracker.cpp" />
+		<Unit filename="src/SkeletonTracker.hxx" />
+		<Unit filename="src/Vec3D.cpp" />
+		<Unit filename="src/Vec3D.hxx" />
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
