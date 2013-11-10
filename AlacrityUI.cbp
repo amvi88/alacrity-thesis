@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AlacrityGestureRecorder" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="UI/;Main/;XML manager/;SkeletonTracker/;Gesture Recognition/;Configuration/;Utils/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AlacrityGestureRecorder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AlacrityGestureRecorder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="/usr/include/qt4/Qt" />
+			<Add directory="/usr/include/qt4/QtOpenGL" />
+			<Add directory="/usr/include/qt4/QtCore" />
+			<Add directory="/usr/share/qt4/include/" />
+			<Add directory="/usr/include/qt4/QtGui" />
+			<Add directory="/usr/include/nite" />
+			<Add directory="/usr/include/ni" />
+			<Add directory="/usr/include/xercesc/" />
+		</Compiler>
+		<Linker>
+			<Add library="libQtGui" />
+			<Add library="libQtCore" />
+			<Add library="libQtOpenGL" />
+			<Add library="libGL" />
+			<Add library="OpenNI" />
+			<Add library="libXnVNite_1_5_2" />
+			<Add library="libboost_system" />
+			<Add library="libboost_thread-mt" />
+			<Add library="xerces-c" />
+			<Add directory="/usr/lib/i386-linux-gnu" />
+		</Linker>
+		<Unit filename="bin/Data/Alacrity.config" />
+		<Unit filename="bin/Data/Config.xml" />
+		<Unit filename="src/AngleQuantificationGestureRecognizer.cpp">
+			<Option virtualFolder="Gesture Recognition/" />
+		</Unit>
+		<Unit filename="src/AngleQuantificationGestureRecognizer.hxx">
+			<Option virtualFolder="Gesture Recognition/" />
+		</Unit>
+		<Unit filename="src/BigdelouGestureRecognizer.cpp">
+			<Option virtualFolder="Gesture Recognition/" />
+		</Unit>
+		<Unit filename="src/BigdelouGestureRecognizer.hxx">
+			<Option virtualFolder="Gesture Recognition/" />
+		</Unit>
+		<Unit filename="src/ConfigurationManager.cpp">
+			<Option virtualFolder="Configuration/" />
+		</Unit>
+		<Unit filename="src/ConfigurationManager.hxx">
+			<Option virtualFolder="Configuration/" />
+		</Unit>
+		<Unit filename="src/GLWidget.cpp">
+			<Option virtualFolder="UI/" />
+		</Unit>
+		<Unit filename="src/GLWidget.hxx">
+			<Option virtualFolder="UI/" />
+		</Unit>
+		<Unit filename="src/GestureEnumeration.hxx">
+			<Option virtualFolder="Gesture Recognition/" />
+		</Unit>
+		<Unit filename="src/GestureQueue.cpp">
+			<Option virtualFolder="XML manager/" />
+		</Unit>
+		<Unit filename="src/GestureQueue.h">
+			<Option virtualFolder="XML manager/" />
+		</Unit>
+		<Unit filename="src/GestureRecognizer.cpp">
+			<Option virtualFolder="Gesture Recognition/" />
+		</Unit>
+		<Unit filename="src/GestureRecognizer.hxx">
+			<Option virtualFolder="Gesture Recognition/" />
+		</Unit>
+		<Unit filename="src/GestureWriter.cpp">
+			<Option virtualFolder="XML manager/" />
+		</Unit>
+		<Unit filename="src/GestureWriter.hxx">
+			<Option virtualFolder="XML manager/" />
+		</Unit>
+		<Unit filename="src/IOUtils.cpp">
+			<Option virtualFolder="Utils/" />
+		</Unit>
+		<Unit filename="src/IOUtils.hxx">
+			<Option virtualFolder="Utils/" />
+		</Unit>
+		<Unit filename="src/MainWindow.cpp">
+			<Option virtualFolder="UI/" />
+		</Unit>
+		<Unit filename="src/MainWindow.hxx">
+			<Option virtualFolder="UI/" />
+		</Unit>
+		<Unit filename="src/QTSkeletonTrackerThread.cpp">
+			<Option virtualFolder="SkeletonTracker/" />
+		</Unit>
+		<Unit filename="src/QTSkeletonTrackerThread.h">
+			<Option virtualFolder="SkeletonTracker/" />
+		</Unit>
+		<Unit filename="src/RecognitionFactory.cpp">
+			<Option virtualFolder="Gesture Recognition/" />
+		</Unit>
+		<Unit filename="src/RecognitionFactory.h">
+			<Option virtualFolder="Gesture Recognition/" />
+		</Unit>
+		<Unit filename="src/SkeletonTracker.cpp">
+			<Option virtualFolder="SkeletonTracker/" />
+		</Unit>
+		<Unit filename="src/SkeletonTracker.hxx">
+			<Option virtualFolder="SkeletonTracker/" />
+		</Unit>
+		<Unit filename="src/XMLGestureRecognizer.cpp">
+			<Option virtualFolder="Gesture Recognition/" />
+		</Unit>
+		<Unit filename="src/XMLGestureRecognizer.hxx">
+			<Option virtualFolder="Gesture Recognition/" />
+		</Unit>
+		<Unit filename="src/XmlManager.cpp">
+			<Option virtualFolder="XML manager/" />
+		</Unit>
+		<Unit filename="src/XmlManager.hxx">
+			<Option virtualFolder="XML manager/" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="src/moc_GLWidget.cpp">
+			<Option virtualFolder="UI/" />
+		</Unit>
+		<Unit filename="src/moc_MainWindow.cpp">
+			<Option virtualFolder="UI/" />
+		</Unit>
+		<Unit filename="src/ui_mainwindow.cpp">
+			<Option virtualFolder="UI/" />
+		</Unit>
+		<Unit filename="src/ui_mainwindow.h">
+			<Option virtualFolder="UI/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
